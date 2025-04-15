@@ -7,10 +7,10 @@ function diagonalDifference(arr) {
     }
     return Math.abs(primaryDiagonalSum - secondaryDiagonalSum);
 }
-// Example usage:
+// Example:
 const matrix = [
     [11, 2, 4],
     [4, 5, 6],
     [10, 8, -12]
 ];
-console.log(diagonalDifference(matrix)); // Output: 15
+console.log(diagonalDifference(matrix));
